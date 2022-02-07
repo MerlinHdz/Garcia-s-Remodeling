@@ -1,0 +1,110 @@
+#home-banner {
+    height: 55vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #9f9f9f;
+}
+
+
+#slogan-header {
+    font-size: 3rem;
+    font-family: 'Quattrocento', serif;
+    font-weight: 500;
+    color: #113546;
+    padding: 0 40px;
+}
+
+
+.subtitle {
+    font-family: 'Quattrocento', serif;
+    color: #00243e;
+    font-weight: 500;
+}
+
+
+.home-row-div {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: #495766;
+
+}
+
+#town-names {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    color: #7ca388;
+}
+
+
+.contact-block {
+    text-align: center;
+    height: 250px;
+    color: white;
+    padding-top: 11%;
+}
+
+.contact-block p {
+    font-family: 'Quattrocento', serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.contact-block span {
+    font-family: 'Lato';
+    font-size: 18px;
+}
+
+
+/* Might include in separate file (or change it to main) */
+
+#contact-form {
+    text-align: left;
+}
+
+#contact-form input{
+    font-size: 1em;
+    line-height: 1em;
+    background-color: #e6e6e6;
+    border-width: 0;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+#contact-form select{
+    font-size: 1em;
+    line-height: 1em;
+    background-color: #e6e6e6;
+    border-width: 0;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+
+#contact-form textarea {
+    background-color: #e6e6e6;
+    font-size: 1em;
+    width: 100%;
+    border: none;
+    padding: 16px;
+    min-height: 150px;
+}
+
+#contact-form input[type="submit"] {
+    background-color: #b7debf;
+    color: white;
+    font-size: 20px;
+    font-family: 'Quattrocento', sans-serif;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#contact-form input[type=submit]:hover {
+    background-color: #85c792;
+}

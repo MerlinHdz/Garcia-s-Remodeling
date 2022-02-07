@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+
+.background-banner {
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #9f9f9f;
+
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar-link {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-family: 'Quattrocento', serif;
+    text-decoration: none;
+    margin-right: 8px;
+
+}
+
+
+.navbar-link:hover {
+    color: #b0b0b0;
+    border-bottom: 2px solid white;
+}
+
+.center {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+
+.area {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bar {
+    width: 100%;
+    background-color: #7ca388;
+    color: #113546;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 40px 20px;
+}
+
+#info-container {
+    background-color: #505050;
+    padding: 30px 80px;
+}
+
+.info-row {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    align-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.info-row h4 {
+    font-size: 18px;
+    font-family: "Assistant", sans-serif;
+    color: white;
+    font-weight: 900;
+
+    display: inline-block;
+    margin-right: 5px;
+    width: 100px;
+}
+
+.info-row div {
+    font-size: 18px;
+    font-family: "Assistant", sans-serif;
+    color: white;
+
+    display: inline-block
+
+}
+
+/* Footer styles */
+.footer-info h5 {
+    font-family: 'Quattrocento', serif;
+    font-size: 18px;
+    color:#7ca388;
+}
+
+.footer-info p {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif, Helvetica;
+    color: #e0e0e0;
+}
+
+.light-hr {
+    background-color: #fff;
+}
+/* End of footer styles */
+
+
+@keyframes slideInFromLeft {
+    0% {visibility: hidden; transform: translateX(-150%);}
+    100% {visibility: visible; transform: translateX(0);}
+}
+
+@media only screen and (max-width: 860px) {
+    #slogan-header {
+      font-size: 4rem;
+    }
+
+    #info-container {
+        padding: 30px 40px;
+    }
+}
+
+
+@media only screen and (max-width: 630px) {
+    #slogan-header {
+      font-size: 2rem;
+    }
+
+    #info-container {
+        padding: 30px 0px;
+    }
+}
